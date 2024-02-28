@@ -5,9 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      home works!
-    </p>
+    <section class="search-section">
+      <form>
+        <input type="text"  placeholder="Filter by city">
+        <button type="button" class="primary">Search</button>
+      </form>
+    </section>
   `,
   styleUrl: './home.component.css'
 })

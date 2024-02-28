@@ -12,8 +12,10 @@ import { HomeComponent } from './home/home.component';
         <img src="/assets/logo.svg" alt="logo" class="brand-logo" aria-hidden="true">
       </nav>
     </header>
-    <section class="content">
-      <app-home></app-home>
+    <section>
+      <main class="content">
+        <app-home></app-home>
+      </main>
     </section>
   </main>` ,
   styleUrl: './app.component.css'
