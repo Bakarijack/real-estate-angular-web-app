@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    box-sizing: border-box;
+    font-size: calc(1wv + 0.6em);
+}
+
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: #eee;
+}
