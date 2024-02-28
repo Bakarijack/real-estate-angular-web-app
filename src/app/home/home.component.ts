@@ -1,3 +1,4 @@
+import { HouseLocation } from './../house-location';
 import { Component } from '@angular/core';
 import { HouseLocationComponent } from '../house-location/house-location.component';
 
@@ -20,6 +21,18 @@ import { HouseLocationComponent } from '../house-location/house-location.compone
   `,
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
 
+export class HomeComponent {
+  readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
+
+  housingLocation: HouseLocation = {
+    id: 9999,
+    name: 'Test Home',
+    city: 'Test city',
+    state: 'ST',
+    photo: `${this.baseUrl}/example-house.jpg`,
+    availableUnits: 99,
+    wifi: true,
+    laundry: false,
+  };
 }
