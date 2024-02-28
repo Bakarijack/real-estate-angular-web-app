@@ -1,5 +1,5 @@
 .search-section{
-    margin-top: 3em;
+    margin-top: 3.5em;
 }
 
 .results {
@@ -23,9 +23,10 @@
   button {
     padding: 10px;
     border: solid 1px var(--primary-color);
-    background: var(--primary-color);
+    background: var(--sl-color-fuchsia-500);
     color: white;
     border-radius: 8px;
+    cursor: pointer;
   }
   
   @media (min-width: 500px) and (max-width: 768px) {
