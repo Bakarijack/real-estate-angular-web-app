@@ -14,7 +14,7 @@ import { HouseLocationComponent } from '../house-location/house-location.compone
       </form>
       <section>
         <section class="results">
-          <app-house-location></app-house-location>
+          <app-house-location [housingLocation]="housingLocation"]></app-house-location>
         </section>
       </section>
     </section>
