@@ -14,7 +14,7 @@ import { HouseLocationComponent } from '../house-location/house-location.compone
       </form>
       <section>
         <section class="results">
-          <app-house-location [housingLocation]="housingLocation"]></app-house-location>
+          <app-house-location [housingLocation]="housingLocation1"></app-house-location>
         </section>
       </section>
     </section>
@@ -25,7 +25,7 @@ import { HouseLocationComponent } from '../house-location/house-location.compone
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
-  housingLocation: HouseLocation = {
+  housingLocation1: HouseLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
